@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  padding: 15px 30px;
+  font-weight: bold;
+  align-items: center;
+  background-color: palevioletred;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 9;
+  box-shadow: 0px 2px 10px rgb(152, 152, 152);
+}
+
+.container li {
+  list-style: none;
+}
+
+.container li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding: 10px;
+}
+
+.links li a:hover,
+.home li a:hover {
+  color: purple;
+}

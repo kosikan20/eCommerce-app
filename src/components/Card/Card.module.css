@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px;
+  padding: 10px;
+  position: relative;
+  border: 2px solid grey;
+  color: blueviolet;
+}
+.card img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.desc {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.title {
+  padding: 0 10px;
+}
+
+.rating > p {
+  padding: 0 2px;
+}
+
+.card:hover {
+  scale: 1.1;
+  box-shadow: 2px 2px 5px 0px #888888;
+  transition: all 0.5s ease-out;
+}
