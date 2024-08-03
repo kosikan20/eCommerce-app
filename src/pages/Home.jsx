@@ -4,9 +4,7 @@ import classes from "./Home.module.css";
 import ad3 from "../assets/ad3.jpg";
 import ad1 from "../assets/ad1.jpg";
 import { Link } from "react-router-dom";
-import Testimonials from "../components/Testimonials/Testimonials";
 import NewProducts from "../components/ProductsList/NewProducts";
-import Footer from "../components/Footer/Footer";
 const Home = () => {
   return (
     <div className={classes.home}>
@@ -32,8 +30,6 @@ const Home = () => {
           </div>
         </div>
         <NewProducts />
-        <Testimonials />
-        <Footer />
       </div>
     </div>
   );
