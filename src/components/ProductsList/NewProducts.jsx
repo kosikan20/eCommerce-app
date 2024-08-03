@@ -4,27 +4,30 @@ import styles from "./NewProducts.module.css";
 const products = [
   {
     id: 1,
-    name: "Product One",
-    price: "$29.99",
+    name: "Elegant Evening Gown",
+    price: "$149.99",
     image:
-      "https://images.pexels.com/photos/792725/pexels-photo-792725.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: "A brief description of Product One.",
+      "https://images.pexels.com/photos/1267369/pexels-photo-1267369.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description:
+      "A stunning evening gown with a fitted bodice and flowing skirt, perfect for formal events and special occasions.",
   },
   {
     id: 2,
-    name: "Product Two",
-    price: "$39.99",
+    name: "Summer Floral Dress",
+    price: "$69.99",
     image:
-      "https://images.pexels.com/photos/792725/pexels-photo-792725.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: "A brief description of Product Two.",
+      "https://images.pexels.com/photos/1470528/pexels-photo-1470528.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description:
+      "A light and airy summer dress adorned with vibrant floral prints, ideal for casual outings and sunny days.",
   },
   {
     id: 3,
-    name: "Product Three",
-    price: "$49.99",
+    name: "Chic Wrap Dress",
+    price: "$89.99",
     image:
-      "https://images.pexels.com/photos/821413/pexels-photo-821413.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: "A brief description of Product Three.",
+      "https://images.pexels.com/photos/2312250/pexels-photo-2312250.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description:
+      "A versatile wrap dress with a flattering silhouette that can be dressed up or down, suitable for both office and evening wear.",
   },
 ];
 
@@ -44,7 +47,6 @@ const ProductList = () => {
               <h3 className={styles.productName}>{product.name}</h3>
               <p className={styles.productPrice}>{product.price}</p>
               <p className={styles.productDescription}>{product.description}</p>
-              <button className={styles.button}>Add to Cart</button>
             </div>
           </div>
         ))}

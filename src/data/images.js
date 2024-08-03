@@ -1,4 +1,4 @@
-import a1 from "../assets/x.jpg";
+import a1 from "../assets/1.jpg";
 import a3 from "../assets/2.jpg";
 import a2 from "../assets/3.jpg";
 import a4 from "../assets/4.jpg";
