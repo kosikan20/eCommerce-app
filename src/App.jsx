@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
 import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
     <Provider store={store}>
@@ -20,7 +21,6 @@ function App() {
           <Route element={<Home />} path="/"></Route>
           <Route element={<Product />} path=":id"></Route>
           <Route element={<Cart />} path="/cart"></Route>
-          <Route element={<Login />} path="/login"></Route>
         </Routes>
       </Router>
     </Provider>
