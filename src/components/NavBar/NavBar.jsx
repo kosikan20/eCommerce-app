@@ -4,7 +4,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <nav style={navbarStyle}>
+    <nav>
       <ul className={classes.container}>
         <div className={classes.home}>
           <li>
